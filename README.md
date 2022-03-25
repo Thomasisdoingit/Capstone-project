@@ -76,7 +76,7 @@ we get this beautiful dataframe:
 So we have 682 stations on the network, cool and now we have their matching ID and lat/lng.
 
 However despite searching for a very long time trying to use fill() or some kind of join. I can't figure out how to populate the cells in May_trips.  
-  ![a screenshot ](May_trips screenshot.png)   
+  ![a screenshot ](https://github.com/Thomasisdoingit/Capstone-project/blob/2d4edc09a6ca9136e5e71be64c67fc2083aa4ced/May_trips%20screenshot.png)   
   
   
   Pls send help
