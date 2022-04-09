@@ -139,7 +139,8 @@ ggplot(Yearly_clean, aes(tripduration, fill= usertype)) +
   ylab("Number of trips")+
   labs(title="Number of trip by trip duration")
 ```  
-![](Number_trips_duration_dow.png)
+![](Number_trips_duration_dow.png)  
+
 
 Here we can clearly see that trips made by casual users represent a bigger percentage of the total amount of trips on Saturdays and Sundays. 
 ```{r, eval= F, echo=TRUE}
@@ -151,7 +152,8 @@ ggplot(Yearly_clean, aes(tripduration)) +
   ylab("Number of trips")+
   labs(title = "Comparison of usage between customers and suscribers")
 ```  
-![](Comparsion_trip_cust.png)
+![](Comparsion_trip_cust.png)  
+
 Looking at this graph we can also see a different in usage of the service, while the vast majority of subscribers use the services for trips shorter than 1000 seconds (around 16 minutes), customers tend to use the service for slightly longer trips (between 1000 and 1500 seconds).  
 
 The sharp decline in the number of trips longer than 1000 second in the subscribers curve is not matched in the customer curve where the decline of number of trips compared to a longer trip duration is less sharp.
